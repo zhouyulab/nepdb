@@ -1,0 +1,8 @@
+.gitignore
+
+.vscode/*
+evaluation/*
+
+data/*
+
+*.pdf
