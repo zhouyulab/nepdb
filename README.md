@@ -2,6 +2,8 @@
 
 ### Curation of Validated Neopeptide Dataset (VND)
 
+- Query and filter literature using query_pub.py and filter_pub.py
+
 - Verify the sequence and site information using match_sequencing.py
 
   Note: Use the tran_sort4.py script if the transcript names in the collected data are come from different databases.  
