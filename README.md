@@ -6,13 +6,16 @@
 
 - Verify the sequence and site information using match_sequencing.py
 
-  Note: Use the tran_sort4.py script if the transcript names in the collected data are come from different databases.  
+  Note: Use the tran4_id_sequeence.py script if the transcript names in the collected data are come from different databases.  
 
-- Add short sequence of wild_peptide and the length of antigen peptide when not provided with default NA for other information that could not be inferred using antiglen_wtpep_NA.py
+- Add short sequence of wild_peptide and the length of antigen peptide when not provided with default NA for other information that could not be inferred using add_wtpep_NA.py
 
 - Unify data format with unifydata.R
 
-- Check sequences, antigens, and location information using Check_align.py
+- Check sequences, antigens, and location information using check_align.py
+
+- Screen neoantign-related literature using SVM-based scripts under svm/
+
 
 ### Predicted Neopeptide Dataset (PND) 
 
